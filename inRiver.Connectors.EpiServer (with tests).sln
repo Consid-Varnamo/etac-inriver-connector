@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inRiver.EPiServerCommerce.Interfaces", "inRiver.EPiServerCommerce.Interfaces\inRiver.EPiServerCommerce.Interfaces.csproj", "{0C76565D-930B-4478-9101-AAD7BCED1D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inRiver.EPiServerCommerce.MediaPublisher", "inRiver.EPiServerCommerce.MediaPublisher\inRiver.EPiServerCommerce.MediaPublisher.csproj", "{A7BD66BD-1010-42BA-99FA-D9B1E1ADC583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inRiver.Connectors.EPiServer", "inRiver.Connectors.EPiServer\inRiver.Connectors.EPiServer.csproj", "{1E3AF4B2-80A9-4E57-915F-2642A69FEE28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{88BA8657-C0F4-42E4-9A60-6E3C6146AD66}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code maps", "Code maps", "{20CF419D-D30D-4E0D-ACC1-089637042C11}"
+	ProjectSection(SolutionItems) = preProject
+		channel language.dgml = channel language.dgml
+		configuration relations.dgml = configuration relations.dgml
+		publish-resource.dgml = publish-resource.dgml
+		publish.dgml = publish.dgml
+		skip-field.dgml = skip-field.dgml
+		xml exporter.dgml = xml exporter.dgml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inRiver.EPiServerCommerce.MediaPublisher.Tests", "Test.inRiver.EPiServerCommerce.MediaPublisher\inRiver.EPiServerCommerce.MediaPublisher.Tests.csproj", "{F1CC30DA-411F-4A11-A614-753BDEC8415F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inRiver.Connectors.EPiServer.Tests", "inRiver.Connectors.EPiServerTests\inRiver.Connectors.EPiServer.Tests.csproj", "{84CDEA53-1407-4F1E-9454-310BF1B5E0E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C76565D-930B-4478-9101-AAD7BCED1D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C76565D-930B-4478-9101-AAD7BCED1D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C76565D-930B-4478-9101-AAD7BCED1D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C76565D-930B-4478-9101-AAD7BCED1D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BD66BD-1010-42BA-99FA-D9B1E1ADC583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BD66BD-1010-42BA-99FA-D9B1E1ADC583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BD66BD-1010-42BA-99FA-D9B1E1ADC583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BD66BD-1010-42BA-99FA-D9B1E1ADC583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3AF4B2-80A9-4E57-915F-2642A69FEE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3AF4B2-80A9-4E57-915F-2642A69FEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3AF4B2-80A9-4E57-915F-2642A69FEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3AF4B2-80A9-4E57-915F-2642A69FEE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CC30DA-411F-4A11-A614-753BDEC8415F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CC30DA-411F-4A11-A614-753BDEC8415F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CC30DA-411F-4A11-A614-753BDEC8415F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CC30DA-411F-4A11-A614-753BDEC8415F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CDEA53-1407-4F1E-9454-310BF1B5E0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CDEA53-1407-4F1E-9454-310BF1B5E0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CDEA53-1407-4F1E-9454-310BF1B5E0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CDEA53-1407-4F1E-9454-310BF1B5E0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20CF419D-D30D-4E0D-ACC1-089637042C11} = {88BA8657-C0F4-42E4-9A60-6E3C6146AD66}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {050672F8-AF91-47C8-9116-D1DC01BB9496}
+	EndGlobalSection
+EndGlobal

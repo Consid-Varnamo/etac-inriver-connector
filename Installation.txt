@@ -1,0 +1,41 @@
+Installation
+
+On the iPMC side:
+- Add the package iPMCEpiConnector.zip in Control Center -> Connect -> Packages
+- Create a ChannelListner connector instance: 
+	* Assembly Name: inRiver.Connectors.EPiServer.dll
+	* Assembly Type: inRiver.EPiServerCommerce.CommerceAdapter.XmlExporter
+- Add the settings
+	* example:
+		"CHANNEL_ID", "15880"
+        "EPI_APIKEY", "epi123"
+        "EPI_ENDPOINT_URL", "http://localhost:64010/inriverapi/InriverDataImport/"
+        "RESOURCE_CONFIGURATION", "Thumbnail"
+        "EPI_RESTTIMEOUT", "1"
+        "ITEM_TO_SKUS", "false"
+        "LANGUAGE_MAPPING", "<languages><language><epi>en-us</epi><inriver>en</inriver></language></languages>"
+        "STORAGE_NAME", "epiconnectorfileshare"
+		"STORAGE_KEY","+0nvxmkhyksrGep75ppEMZefDSm7K6mtTlJXv0P//j5yYdh/uiE61234fy5sgs456sfw=="
+		"STORAGE_SHARE_REFERENCE", "root"
+		"STORAGE_CATALOG_DIRECTORY_REFERENCE", "catalog"
+		"STORAGE_RESOURCES_DIRECTORY_REFERENCE", "resource
+		
+		
+If needed add a CVLListner connector instance.
+
+
+On the EpiServer side:
+- Add the dlls from the InRiverDataImporter folder to the bin folder of the site.
+- Add the settings to your web.config
+	* example:
+	<appSettings>
+	...
+		<add key="inRiver.apikey" value="epi123" />
+		<add key="inRiver.RunICatalogImportHandlers" value="false" />
+		<add key="inRiver.StorageAccountName" value="epiconnectorfileshare" />
+		<add key="inRiver.StorageAccountKey" value="+0nvxmkhyksrGep75ppEMZefDSm7K6mtTlJXv0P//j5yYdh/uiE61234fy5sgs456sfw==" />
+		<add key="inRiver.StorageAccountShareReference" value="root" />
+		<add key="inRiver.StorageAccountCatalogDirectoryReference" value="catalog" />
+		<add key="inRiver.StorageAccountResourcesDirectoryReference" value="resource" />  
+	</appSettings>
+	

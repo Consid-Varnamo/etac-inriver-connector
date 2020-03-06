@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>inRiver.Remoting.7.3.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:inRiver.Remoting.Extension.Fakes.ShiminRiverContext">
+            <summary>Shim type of inRiver.Remoting.Extension.inRiverContext</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.#ctor(inRiver.Remoting.Extension.inRiverContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.ExtensionIdGet">
+            <summary>Sets the shim of inRiverContext.get_ExtensionId()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.ExtensionIdSetString">
+            <summary>Sets the shim of inRiverContext.set_ExtensionId(String value)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.ExtensionManagerGet">
+            <summary>Sets the shim of inRiverContext.get_ExtensionManager()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.LogLogLevelString">
+            <summary>Sets the shim of inRiverContext.Log(LogLevel level, String message)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.LogLogLevelStringException">
+            <summary>Sets the shim of inRiverContext.Log(LogLevel level, String message, Exception ex)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.LoggerGet">
+            <summary>Sets the shim of inRiverContext.get_Logger()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.SettingsGet">
+            <summary>Sets the shim of inRiverContext.get_Settings()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.SettingsSetDictionaryOfStringString">
+            <summary>Sets the shim of inRiverContext.set_Settings(Dictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.UsernameGet">
+            <summary>Sets the shim of inRiverContext.get_Username()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.AllInstances.UsernameSetString">
+            <summary>Sets the shim of inRiverContext.set_Username(String value)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.ConstructorIinRiverManagerIExtensionLog">
+            <summary>Sets the shim of inRiverContext.inRiverContext(IinRiverManager manager, IExtensionLog logger)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.ExtensionIdGet">
+            <summary>Sets the shim of inRiverContext.get_ExtensionId()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.ExtensionIdSetString">
+            <summary>Sets the shim of inRiverContext.set_ExtensionId(String value)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.ExtensionManagerGet">
+            <summary>Sets the shim of inRiverContext.get_ExtensionManager()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.LogLogLevelString">
+            <summary>Sets the shim of inRiverContext.Log(LogLevel level, String message)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.LogLogLevelStringException">
+            <summary>Sets the shim of inRiverContext.Log(LogLevel level, String message, Exception ex)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.LoggerGet">
+            <summary>Sets the shim of inRiverContext.get_Logger()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.SettingsGet">
+            <summary>Sets the shim of inRiverContext.get_Settings()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.SettingsSetDictionaryOfStringString">
+            <summary>Sets the shim of inRiverContext.set_Settings(Dictionary`2&lt;String,String&gt; value)</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.UsernameGet">
+            <summary>Sets the shim of inRiverContext.get_Username()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Extension.Fakes.ShiminRiverContext.UsernameSetString">
+            <summary>Sets the shim of inRiverContext.set_Username(String value)</summary>
+        </member>
+        <member name="T:inRiver.Remoting.Fakes.StubIModelService">
+            <summary>Stub type of inRiver.Remoting.IModelService</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.#ctor">
+            <summary>Initializes a new instance of type StubIModelService</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCVLCVL">
+            <summary>Sets the stub of IModelService.AddCVL(CVL cvl)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCVLValueCVLValue">
+            <summary>Sets the stub of IModelService.AddCVLValue(CVLValue cvlValue)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCategoryCategory">
+            <summary>Sets the stub of IModelService.AddCategory(Category category)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCompletenessActionCompletenessAction">
+            <summary>Sets the stub of IModelService.AddCompletenessAction(CompletenessAction action)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCompletenessBusinessRuleCompletenessBusinessRule">
+            <summary>Sets the stub of IModelService.AddCompletenessBusinessRule(CompletenessBusinessRule rule)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCompletenessDefinitionCompletenessDefinition">
+            <summary>Sets the stub of IModelService.AddCompletenessDefinition(CompletenessDefinition definition)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddCompletenessGroupCompletenessGroup">
+            <summary>Sets the stub of IModelService.AddCompletenessGroup(CompletenessGroup group)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddEntityTypeEntityType">
+            <summary>Sets the stub of IModelService.AddEntityType(EntityType entityType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddFieldSetFieldSet">
+            <summary>Sets the stub of IModelService.AddFieldSet(FieldSet fieldSet)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddFieldTypeFieldType">
+            <summary>Sets the stub of IModelService.AddFieldType(FieldType fieldType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddFieldTypeToFieldSetStringString">
+            <summary>Sets the stub of IModelService.AddFieldTypeToFieldSet(String fieldSetId, String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddFieldTypeToFieldViewStringString">
+            <summary>Sets the stub of IModelService.AddFieldTypeToFieldView(String fieldViewId, String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddFieldViewFieldView">
+            <summary>Sets the stub of IModelService.AddFieldView(FieldView fieldview)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.AddLinkTypeLinkType">
+            <summary>Sets the stub of IModelService.AddLinkType(LinkType linkType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.ConnectExistingCompletenessBusinessRuleToNewGroupCompletenessBusinessRuleInt32">
+            <summary>Sets the stub of IModelService.ConnectExistingCompletenessBusinessRuleToNewGroup(CompletenessBusinessRule rule, Int32 groupId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCVLValues">
+            <summary>Sets the stub of IModelService.DeleteAllCVLValues()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCVLValuesForCVLString">
+            <summary>Sets the stub of IModelService.DeleteAllCVLValuesForCVL(String cvlId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCVLs">
+            <summary>Sets the stub of IModelService.DeleteAllCVLs()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCategories">
+            <summary>Sets the stub of IModelService.DeleteAllCategories()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCompletenessBusinessRule">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessBusinessRule()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCompletenessDefinitions">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessDefinitions()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCompletenessGroups">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessGroups()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllCompletenessGroupsForDefinitionInt32">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessGroupsForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllEntityTypes">
+            <summary>Sets the stub of IModelService.DeleteAllEntityTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllFieldSets">
+            <summary>Sets the stub of IModelService.DeleteAllFieldSets()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllFieldTypes">
+            <summary>Sets the stub of IModelService.DeleteAllFieldTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllFieldViews">
+            <summary>Sets the stub of IModelService.DeleteAllFieldViews()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteAllLinkTypes">
+            <summary>Sets the stub of IModelService.DeleteAllLinkTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCVLString">
+            <summary>Sets the stub of IModelService.DeleteCVL(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCVLValueInt32">
+            <summary>Sets the stub of IModelService.DeleteCVLValue(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCategoryString">
+            <summary>Sets the stub of IModelService.DeleteCategory(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCompletenessActionInt32">
+            <summary>Sets the stub of IModelService.DeleteCompletenessAction(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCompletenessBusinessRuleForGroupInt32Int32">
+            <summary>Sets the stub of IModelService.DeleteCompletenessBusinessRuleForGroup(Int32 ruleId, Int32 groupId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCompletenessDefinitionInt32">
+            <summary>Sets the stub of IModelService.DeleteCompletenessDefinition(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteCompletenessGroupInt32">
+            <summary>Sets the stub of IModelService.DeleteCompletenessGroup(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteEntityTypeString">
+            <summary>Sets the stub of IModelService.DeleteEntityType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteFieldSetString">
+            <summary>Sets the stub of IModelService.DeleteFieldSet(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteFieldTypeFromFieldSetStringString">
+            <summary>Sets the stub of IModelService.DeleteFieldTypeFromFieldSet(String fieldSetId, String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteFieldTypeFromFieldViewStringString">
+            <summary>Sets the stub of IModelService.DeleteFieldTypeFromFieldView(String fieldViewId, String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteFieldTypeString">
+            <summary>Sets the stub of IModelService.DeleteFieldType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteFieldViewString">
+            <summary>Sets the stub of IModelService.DeleteFieldView(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.DeleteLinkTypeString">
+            <summary>Sets the stub of IModelService.DeleteLinkType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.ExportModelAsXmlStringBoolean">
+            <summary>Sets the stub of IModelService.ExportModelAsXmlString(Boolean includeCVLItems)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCVLValues">
+            <summary>Sets the stub of IModelService.GetAllCVLValues()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCVLs">
+            <summary>Sets the stub of IModelService.GetAllCVLs()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCategories">
+            <summary>Sets the stub of IModelService.GetAllCategories()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCompletenessBusinessRules">
+            <summary>Sets the stub of IModelService.GetAllCompletenessBusinessRules()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCompletenessCriteras">
+            <summary>Sets the stub of IModelService.GetAllCompletenessCriteras()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCompletenessDefinitions">
+            <summary>Sets the stub of IModelService.GetAllCompletenessDefinitions()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllCompletenessRuleSettingsForBusinessRuleInt32">
+            <summary>Sets the stub of IModelService.GetAllCompletenessRuleSettingsForBusinessRule(Int32 businessRuleId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllEntityTypeStatistics">
+            <summary>Sets the stub of IModelService.GetAllEntityTypeStatistics()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllEntityTypes">
+            <summary>Sets the stub of IModelService.GetAllEntityTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllFieldSets">
+            <summary>Sets the stub of IModelService.GetAllFieldSets()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllFieldTypes">
+            <summary>Sets the stub of IModelService.GetAllFieldTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllFieldViews">
+            <summary>Sets the stub of IModelService.GetAllFieldViews()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetAllLinkTypes">
+            <summary>Sets the stub of IModelService.GetAllLinkTypes()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLCount">
+            <summary>Sets the stub of IModelService.GetCVLCount()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLString">
+            <summary>Sets the stub of IModelService.GetCVL(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLValueByKeyStringString">
+            <summary>Sets the stub of IModelService.GetCVLValueByKey(String key, String cvlId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLValueForLanguageStringStringCultureInfo">
+            <summary>Sets the stub of IModelService.GetCVLValueForLanguage(String cvlId, String cvlKey, CultureInfo ci)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLValueInt32">
+            <summary>Sets the stub of IModelService.GetCVLValue(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCVLValuesForCVLStringBoolean">
+            <summary>Sets the stub of IModelService.GetCVLValuesForCVL(String cvlId, Boolean forceGet)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCategoriesForEntityTypeString">
+            <summary>Sets the stub of IModelService.GetCategoriesForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCategoryString">
+            <summary>Sets the stub of IModelService.GetCategory(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessActionInt32">
+            <summary>Sets the stub of IModelService.GetCompletenessAction(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessActionsByDefinitionIdGroupIdAndTriggerInt32Int32String">
+            <summary>Sets the stub of IModelService.GetCompletenessActionsByDefinitionIdGroupIdAndTrigger(Int32 definitionid, Int32 groupId, String actiontrigger)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessActionsByDefinitionIdRuleIdAndTriggerInt32Int32String">
+            <summary>Sets the stub of IModelService.GetCompletenessActionsByDefinitionIdRuleIdAndTrigger(Int32 definitionid, Int32 ruleid, String actiontrigger)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessBusinessRulesByGroupAndRuleInt32Int32">
+            <summary>Sets the stub of IModelService.GetCompletenessBusinessRulesByGroupAndRule(Int32 groupId, Int32 ruleId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessBusinessRulesForGroupInt32">
+            <summary>Sets the stub of IModelService.GetCompletenessBusinessRulesForGroup(Int32 groupId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessCriteraByTypeString">
+            <summary>Sets the stub of IModelService.GetCompletenessCriteraByType(String type)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessDefinitionInt32">
+            <summary>Sets the stub of IModelService.GetCompletenessDefinition(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessGroupForDefinitionInt32">
+            <summary>Sets the stub of IModelService.GetCompletenessGroupForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetCompletenessGroupInt32">
+            <summary>Sets the stub of IModelService.GetCompletenessGroup(Int32 id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetEntityTypeString">
+            <summary>Sets the stub of IModelService.GetEntityType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetEnvironmentLatestChangesDateTime">
+            <summary>Sets the stub of IModelService.GetEnvironmentLatestChanges(DateTime sinceUtcDt)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldSetString">
+            <summary>Sets the stub of IModelService.GetFieldSet(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldSetsForEntityTypeString">
+            <summary>Sets the stub of IModelService.GetFieldSetsForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldSetsForFieldTypeString">
+            <summary>Sets the stub of IModelService.GetFieldSetsForFieldType(String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldTypeString">
+            <summary>Sets the stub of IModelService.GetFieldType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldTypesForEntityTypeAndCategoryStringString">
+            <summary>Sets the stub of IModelService.GetFieldTypesForEntityTypeAndCategory(String entityTypeId, String categoryId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldTypesForFieldSetString">
+            <summary>Sets the stub of IModelService.GetFieldTypesForFieldSet(String fieldSetId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldTypesForFieldViewString">
+            <summary>Sets the stub of IModelService.GetFieldTypesForFieldView(String fieldViewId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldViewString">
+            <summary>Sets the stub of IModelService.GetFieldView(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldViewsForEntityTypeString">
+            <summary>Sets the stub of IModelService.GetFieldViewsForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetFieldViewsForFieldTypeString">
+            <summary>Sets the stub of IModelService.GetFieldViewsForFieldType(String fieldTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetLinkTypeString">
+            <summary>Sets the stub of IModelService.GetLinkType(String id)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.GetLinkTypesForEntityTypeString">
+            <summary>Sets the stub of IModelService.GetLinkTypesForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.ImportModelFromXmlStringString">
+            <summary>Sets the stub of IModelService.ImportModelFromXmlString(String xml)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.ReCalculateCompletenessForDefinitionInt32">
+            <summary>Sets the stub of IModelService.ReCalculateCompletenessForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.SetCompletenessBusinessRuleSettingsInt32ListOfCompletenessRuleSetting">
+            <summary>Sets the stub of IModelService.SetCompletenessBusinessRuleSettings(Int32 ruleId, List`1&lt;CompletenessRuleSetting&gt; settings)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCVLCVL">
+            <summary>Sets the stub of IModelService.UpdateCVL(CVL cvl)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCVLValueCVLValue">
+            <summary>Sets the stub of IModelService.UpdateCVLValue(CVLValue cvlValue)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCategoryCategory">
+            <summary>Sets the stub of IModelService.UpdateCategory(Category category)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCompletenessActionCompletenessAction">
+            <summary>Sets the stub of IModelService.UpdateCompletenessAction(CompletenessAction action)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCompletenessActionsInt32Int32StringListOfCompletenessAction">
+            <summary>Sets the stub of IModelService.UpdateCompletenessActions(Int32 definitionId, Int32 ruleId, String trigger, List`1&lt;CompletenessAction&gt; actions)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCompletenessBusinessRuleForGroupCompletenessBusinessRuleInt32">
+            <summary>Sets the stub of IModelService.UpdateCompletenessBusinessRuleForGroup(CompletenessBusinessRule rule, Int32 groupId)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCompletenessDefinitionCompletenessDefinition">
+            <summary>Sets the stub of IModelService.UpdateCompletenessDefinition(CompletenessDefinition definition)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateCompletenessGroupCompletenessGroup">
+            <summary>Sets the stub of IModelService.UpdateCompletenessGroup(CompletenessGroup rule)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateEntityTypeEntityType">
+            <summary>Sets the stub of IModelService.UpdateEntityType(EntityType entityType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateFieldSetFieldSet">
+            <summary>Sets the stub of IModelService.UpdateFieldSet(FieldSet fieldSet)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateFieldTypeFieldType">
+            <summary>Sets the stub of IModelService.UpdateFieldType(FieldType fieldType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateFieldViewFieldView">
+            <summary>Sets the stub of IModelService.UpdateFieldView(FieldView fieldView)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdateLinkTypeLinkType">
+            <summary>Sets the stub of IModelService.UpdateLinkType(LinkType linkType)</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIModelService.UpdatedCompletenessRuleSettingInt32String">
+            <summary>Sets the stub of IModelService.UpdatedCompletenessRuleSetting(Int32 settingId, String value)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCVL(inRiver.Remoting.Objects.CVL)">
+            <summary>Sets the stub of IModelService.AddCVL(CVL cvl)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCVLValue(inRiver.Remoting.Objects.CVLValue)">
+            <summary>Sets the stub of IModelService.AddCVLValue(CVLValue cvlValue)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCategory(inRiver.Remoting.Objects.Category)">
+            <summary>Sets the stub of IModelService.AddCategory(Category category)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCompletenessAction(inRiver.Remoting.Objects.CompletenessAction)">
+            <summary>Sets the stub of IModelService.AddCompletenessAction(CompletenessAction action)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCompletenessBusinessRule(inRiver.Remoting.Objects.CompletenessBusinessRule)">
+            <summary>Sets the stub of IModelService.AddCompletenessBusinessRule(CompletenessBusinessRule rule)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCompletenessDefinition(inRiver.Remoting.Objects.CompletenessDefinition)">
+            <summary>Sets the stub of IModelService.AddCompletenessDefinition(CompletenessDefinition definition)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddCompletenessGroup(inRiver.Remoting.Objects.CompletenessGroup)">
+            <summary>Sets the stub of IModelService.AddCompletenessGroup(CompletenessGroup group)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddEntityType(inRiver.Remoting.Objects.EntityType)">
+            <summary>Sets the stub of IModelService.AddEntityType(EntityType entityType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddFieldSet(inRiver.Remoting.Objects.FieldSet)">
+            <summary>Sets the stub of IModelService.AddFieldSet(FieldSet fieldSet)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddFieldType(inRiver.Remoting.Objects.FieldType)">
+            <summary>Sets the stub of IModelService.AddFieldType(FieldType fieldType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddFieldTypeToFieldSet(System.String,System.String)">
+            <summary>Sets the stub of IModelService.AddFieldTypeToFieldSet(String fieldSetId, String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddFieldTypeToFieldView(System.String,System.String)">
+            <summary>Sets the stub of IModelService.AddFieldTypeToFieldView(String fieldViewId, String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddFieldView(inRiver.Remoting.Objects.FieldView)">
+            <summary>Sets the stub of IModelService.AddFieldView(FieldView fieldview)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#AddLinkType(inRiver.Remoting.Objects.LinkType)">
+            <summary>Sets the stub of IModelService.AddLinkType(LinkType linkType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#ConnectExistingCompletenessBusinessRuleToNewGroup(inRiver.Remoting.Objects.CompletenessBusinessRule,System.Int32)">
+            <summary>Sets the stub of IModelService.ConnectExistingCompletenessBusinessRuleToNewGroup(CompletenessBusinessRule rule, Int32 groupId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCVLValues">
+            <summary>Sets the stub of IModelService.DeleteAllCVLValues()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCVLValuesForCVL(System.String)">
+            <summary>Sets the stub of IModelService.DeleteAllCVLValuesForCVL(String cvlId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCVLs">
+            <summary>Sets the stub of IModelService.DeleteAllCVLs()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCategories">
+            <summary>Sets the stub of IModelService.DeleteAllCategories()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCompletenessBusinessRule">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessBusinessRule()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCompletenessDefinitions">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessDefinitions()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCompletenessGroups">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessGroups()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllCompletenessGroupsForDefinition(System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteAllCompletenessGroupsForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllEntityTypes">
+            <summary>Sets the stub of IModelService.DeleteAllEntityTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllFieldSets">
+            <summary>Sets the stub of IModelService.DeleteAllFieldSets()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllFieldTypes">
+            <summary>Sets the stub of IModelService.DeleteAllFieldTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllFieldViews">
+            <summary>Sets the stub of IModelService.DeleteAllFieldViews()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteAllLinkTypes">
+            <summary>Sets the stub of IModelService.DeleteAllLinkTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCVL(System.String)">
+            <summary>Sets the stub of IModelService.DeleteCVL(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCVLValue(System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteCVLValue(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCategory(System.String)">
+            <summary>Sets the stub of IModelService.DeleteCategory(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCompletenessAction(System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteCompletenessAction(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCompletenessBusinessRuleForGroup(System.Int32,System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteCompletenessBusinessRuleForGroup(Int32 ruleId, Int32 groupId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCompletenessDefinition(System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteCompletenessDefinition(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteCompletenessGroup(System.Int32)">
+            <summary>Sets the stub of IModelService.DeleteCompletenessGroup(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteEntityType(System.String)">
+            <summary>Sets the stub of IModelService.DeleteEntityType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteFieldSet(System.String)">
+            <summary>Sets the stub of IModelService.DeleteFieldSet(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteFieldType(System.String)">
+            <summary>Sets the stub of IModelService.DeleteFieldType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteFieldTypeFromFieldSet(System.String,System.String)">
+            <summary>Sets the stub of IModelService.DeleteFieldTypeFromFieldSet(String fieldSetId, String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteFieldTypeFromFieldView(System.String,System.String)">
+            <summary>Sets the stub of IModelService.DeleteFieldTypeFromFieldView(String fieldViewId, String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteFieldView(System.String)">
+            <summary>Sets the stub of IModelService.DeleteFieldView(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#DeleteLinkType(System.String)">
+            <summary>Sets the stub of IModelService.DeleteLinkType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#ExportModelAsXmlString(System.Boolean)">
+            <summary>Sets the stub of IModelService.ExportModelAsXmlString(Boolean includeCVLItems)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCVLValues">
+            <summary>Sets the stub of IModelService.GetAllCVLValues()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCVLs">
+            <summary>Sets the stub of IModelService.GetAllCVLs()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCategories">
+            <summary>Sets the stub of IModelService.GetAllCategories()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCompletenessBusinessRules">
+            <summary>Sets the stub of IModelService.GetAllCompletenessBusinessRules()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCompletenessCriteras">
+            <summary>Sets the stub of IModelService.GetAllCompletenessCriteras()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCompletenessDefinitions">
+            <summary>Sets the stub of IModelService.GetAllCompletenessDefinitions()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllCompletenessRuleSettingsForBusinessRule(System.Int32)">
+            <summary>Sets the stub of IModelService.GetAllCompletenessRuleSettingsForBusinessRule(Int32 businessRuleId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllEntityTypeStatistics">
+            <summary>Sets the stub of IModelService.GetAllEntityTypeStatistics()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllEntityTypes">
+            <summary>Sets the stub of IModelService.GetAllEntityTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllFieldSets">
+            <summary>Sets the stub of IModelService.GetAllFieldSets()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllFieldTypes">
+            <summary>Sets the stub of IModelService.GetAllFieldTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllFieldViews">
+            <summary>Sets the stub of IModelService.GetAllFieldViews()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetAllLinkTypes">
+            <summary>Sets the stub of IModelService.GetAllLinkTypes()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVL(System.String)">
+            <summary>Sets the stub of IModelService.GetCVL(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVLCount">
+            <summary>Sets the stub of IModelService.GetCVLCount()</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVLValue(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCVLValue(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVLValueByKey(System.String,System.String)">
+            <summary>Sets the stub of IModelService.GetCVLValueByKey(String key, String cvlId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVLValueForLanguage(System.String,System.String,System.Globalization.CultureInfo)">
+            <summary>Sets the stub of IModelService.GetCVLValueForLanguage(String cvlId, String cvlKey, CultureInfo ci)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCVLValuesForCVL(System.String,System.Boolean)">
+            <summary>Sets the stub of IModelService.GetCVLValuesForCVL(String cvlId, Boolean forceGet)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCategoriesForEntityType(System.String)">
+            <summary>Sets the stub of IModelService.GetCategoriesForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCategory(System.String)">
+            <summary>Sets the stub of IModelService.GetCategory(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessAction(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessAction(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessActionsByDefinitionIdGroupIdAndTrigger(System.Int32,System.Int32,System.String)">
+            <summary>Sets the stub of IModelService.GetCompletenessActionsByDefinitionIdGroupIdAndTrigger(Int32 definitionid, Int32 groupId, String actiontrigger)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessActionsByDefinitionIdRuleIdAndTrigger(System.Int32,System.Int32,System.String)">
+            <summary>Sets the stub of IModelService.GetCompletenessActionsByDefinitionIdRuleIdAndTrigger(Int32 definitionid, Int32 ruleid, String actiontrigger)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessBusinessRulesByGroupAndRule(System.Int32,System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessBusinessRulesByGroupAndRule(Int32 groupId, Int32 ruleId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessBusinessRulesForGroup(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessBusinessRulesForGroup(Int32 groupId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessCriteraByType(System.String)">
+            <summary>Sets the stub of IModelService.GetCompletenessCriteraByType(String type)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessDefinition(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessDefinition(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessGroup(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessGroup(Int32 id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetCompletenessGroupForDefinition(System.Int32)">
+            <summary>Sets the stub of IModelService.GetCompletenessGroupForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetEntityType(System.String)">
+            <summary>Sets the stub of IModelService.GetEntityType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetEnvironmentLatestChanges(System.DateTime)">
+            <summary>Sets the stub of IModelService.GetEnvironmentLatestChanges(DateTime sinceUtcDt)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldSet(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldSet(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldSetsForEntityType(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldSetsForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldSetsForFieldType(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldSetsForFieldType(String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldType(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldTypesForEntityTypeAndCategory(System.String,System.String)">
+            <summary>Sets the stub of IModelService.GetFieldTypesForEntityTypeAndCategory(String entityTypeId, String categoryId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldTypesForFieldSet(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldTypesForFieldSet(String fieldSetId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldTypesForFieldView(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldTypesForFieldView(String fieldViewId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldView(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldView(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldViewsForEntityType(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldViewsForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetFieldViewsForFieldType(System.String)">
+            <summary>Sets the stub of IModelService.GetFieldViewsForFieldType(String fieldTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetLinkType(System.String)">
+            <summary>Sets the stub of IModelService.GetLinkType(String id)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#GetLinkTypesForEntityType(System.String)">
+            <summary>Sets the stub of IModelService.GetLinkTypesForEntityType(String entityTypeId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#ImportModelFromXmlString(System.String)">
+            <summary>Sets the stub of IModelService.ImportModelFromXmlString(String xml)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#ReCalculateCompletenessForDefinition(System.Int32)">
+            <summary>Sets the stub of IModelService.ReCalculateCompletenessForDefinition(Int32 definitionId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#SetCompletenessBusinessRuleSettings(System.Int32,System.Collections.Generic.List{inRiver.Remoting.Objects.CompletenessRuleSetting})">
+            <summary>Sets the stub of IModelService.SetCompletenessBusinessRuleSettings(Int32 ruleId, List`1&lt;CompletenessRuleSetting&gt; settings)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCVL(inRiver.Remoting.Objects.CVL)">
+            <summary>Sets the stub of IModelService.UpdateCVL(CVL cvl)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCVLValue(inRiver.Remoting.Objects.CVLValue)">
+            <summary>Sets the stub of IModelService.UpdateCVLValue(CVLValue cvlValue)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCategory(inRiver.Remoting.Objects.Category)">
+            <summary>Sets the stub of IModelService.UpdateCategory(Category category)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCompletenessAction(inRiver.Remoting.Objects.CompletenessAction)">
+            <summary>Sets the stub of IModelService.UpdateCompletenessAction(CompletenessAction action)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCompletenessActions(System.Int32,System.Int32,System.String,System.Collections.Generic.List{inRiver.Remoting.Objects.CompletenessAction})">
+            <summary>Sets the stub of IModelService.UpdateCompletenessActions(Int32 definitionId, Int32 ruleId, String trigger, List`1&lt;CompletenessAction&gt; actions)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCompletenessBusinessRuleForGroup(inRiver.Remoting.Objects.CompletenessBusinessRule,System.Int32)">
+            <summary>Sets the stub of IModelService.UpdateCompletenessBusinessRuleForGroup(CompletenessBusinessRule rule, Int32 groupId)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCompletenessDefinition(inRiver.Remoting.Objects.CompletenessDefinition)">
+            <summary>Sets the stub of IModelService.UpdateCompletenessDefinition(CompletenessDefinition definition)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateCompletenessGroup(inRiver.Remoting.Objects.CompletenessGroup)">
+            <summary>Sets the stub of IModelService.UpdateCompletenessGroup(CompletenessGroup rule)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateEntityType(inRiver.Remoting.Objects.EntityType)">
+            <summary>Sets the stub of IModelService.UpdateEntityType(EntityType entityType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateFieldSet(inRiver.Remoting.Objects.FieldSet)">
+            <summary>Sets the stub of IModelService.UpdateFieldSet(FieldSet fieldSet)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateFieldType(inRiver.Remoting.Objects.FieldType)">
+            <summary>Sets the stub of IModelService.UpdateFieldType(FieldType fieldType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateFieldView(inRiver.Remoting.Objects.FieldView)">
+            <summary>Sets the stub of IModelService.UpdateFieldView(FieldView fieldView)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdateLinkType(inRiver.Remoting.Objects.LinkType)">
+            <summary>Sets the stub of IModelService.UpdateLinkType(LinkType linkType)</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIModelService.inRiver#Remoting#IModelService#UpdatedCompletenessRuleSetting(System.Int32,System.String)">
+            <summary>Sets the stub of IModelService.UpdatedCompletenessRuleSetting(Int32 settingId, String value)</summary>
+        </member>
+        <member name="T:inRiver.Remoting.Fakes.StubIinRiverManager">
+            <summary>Stub type of inRiver.Remoting.IinRiverManager</summary>
+        </member>
+        <member name="M:inRiver.Remoting.Fakes.StubIinRiverManager.#ctor">
+            <summary>Initializes a new instance of type StubIinRiverManager</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#ChannelService">
+            <summary>Sets the stub of IinRiverManager.get_ChannelService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.ChannelServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_ChannelService()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#DataService">
+            <summary>Sets the stub of IinRiverManager.get_DataService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.DataServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_DataService()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#ModelService">
+            <summary>Sets the stub of IinRiverManager.get_ModelService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.ModelServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_ModelService()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#PrintService">
+            <summary>Sets the stub of IinRiverManager.get_PrintService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.PrintServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_PrintService()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#UserService">
+            <summary>Sets the stub of IinRiverManager.get_UserService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.UserServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_UserService()</summary>
+        </member>
+        <member name="P:inRiver.Remoting.Fakes.StubIinRiverManager.inRiver#Remoting#IinRiverManager#UtilityService">
+            <summary>Sets the stub of IinRiverManager.get_UtilityService()</summary>
+        </member>
+        <member name="F:inRiver.Remoting.Fakes.StubIinRiverManager.UtilityServiceGet">
+            <summary>Sets the stub of IinRiverManager.get_UtilityService()</summary>
+        </member>
+    </members>
+</doc>

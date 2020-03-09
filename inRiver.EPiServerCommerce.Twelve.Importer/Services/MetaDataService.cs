@@ -28,6 +28,9 @@ namespace inRiver.EPiServerCommerce.Twelve.Importer.Services
             log.Information("Updating properties on asset '{0}'", ((IContent)resource).Name);
 
             // map all resource properties from Etac's InRiver
+            resource.ResourceName = metaFields.FirstOrDefault(mf => mf.Id == "ResourceName")?.Values?.FirstOrDefault()?.Data;
+            log.Debug("ResourceName was set to '{0}'", resource.ResourceName);
+
             resource.ResourceMarket = metaFields.FirstOrDefault(mf => mf.Id == "ResourceMarket")?.Values?.Select(v => v.Data?.Split(';')).Where(a => a != null).SelectMany(s => s).ToList();
             log.Debug("ResourceMarket was set to '{0}'", string.Join(";", resource.ResourceMarket ?? new string[0]));
 

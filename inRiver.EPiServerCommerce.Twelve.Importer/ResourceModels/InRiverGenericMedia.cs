@@ -15,45 +15,69 @@
     [MediaDescriptor(ExtensionString = "jpg,jpeg,jpe,ico,gif,bmp,png")]
     public class InRiverGenericMedia : CommerceImage, IInRiverResource
     {
+        private const string tabNameCommerce = "Commerce/InRiver";
+        private const string tabNameCms = "CMS";
+
+        [Display(
+            Name = "Alt Text",
+            Description = "Alt Text",
+            GroupName = tabNameCms,
+            Order = 1)]
+        public virtual string AltText { get; set; }
+
+        [Display(
+            Name = "Copyright Info",
+            Description = "Copyright Info",
+            GroupName = tabNameCms,
+            Order = 1)]
+        public virtual string CopyrightInfo { get; set; }
+
         [Display(
             Name = "File id",
             Description = "File id",
-            GroupName = SystemTabNames.Settings,
+            GroupName = tabNameCommerce,
             Order = 100)]
         public virtual int ResourceFileId { get; set; }
 
         [Display(
             Name = "Entity id",
             Description = "Entity id",
-            GroupName = SystemTabNames.Settings,
+            GroupName = tabNameCommerce,
             Order = 110)]
         public virtual int EntityId { get; set; }
 
         [Display(
+            Name = "Resource name",
+            Description = "Resource name",
+            GroupName = tabNameCommerce,
+            Order = 5)]
+        public virtual string ResourceName { get; set; }
+
+        [Display(
             Name = "Markets",
             Description = "Markets",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 10)]
         public virtual IList<string> ResourceMarket { get; set; }
 
         [Display(
             Name = "Main category",
             Description = "Main category",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 20)]
         public virtual string ResourceMainCategory { get; set; }
 
         [Display(
             Name = "Sub category",
             Description = "Sub category",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 30)]
         public virtual string ResourceSubCategory { get; set; }
 
         [Display(
             Name = "Mime type",
             Description = "Mime type",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 40)]
         public virtual string ResourceMimeType { get; set; }
 
@@ -61,7 +85,7 @@
         [Display(
             Name = "Description",
             Description = "Description",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 50)]
         public virtual string ResourceDescription { get; set; }
 
@@ -69,7 +93,7 @@
         [Display(
             Name = "YouTube Video ID",
             Description = "YouTube Video ID",
-            GroupName = SystemTabNames.Content,
+            GroupName = tabNameCommerce,
             Order = 60)]
         public virtual string ResourceYouTubeId { get; set; }
     }

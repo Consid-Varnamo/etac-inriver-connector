@@ -10,6 +10,8 @@ namespace inRiver.EPiServerCommernce.Twelve.Importer.ResourceModels
 
         int EntityId { get; set; }
 
+        string ResourceName { get; set; }
+
         IList<string> ResourceMarket { get; set; }
 
         string ResourceMimeType { get; set; }
